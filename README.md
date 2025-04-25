@@ -3,9 +3,21 @@
 A simple tool using the latest fide ratings using
 [gelo](https://github.com/cpmachado/gelo) to check how mid you are.
 
+
+## Usage
+
 ```shell
+# Had to zip the dataset
+unzip data/players.zip
+
+# run program
 python main.py 1961039
 ```
+
+## Results
+
+Percentile of a given FIDE id against population with a rating in a given
+category.
 
 ```text
 shape: (1, 5)
